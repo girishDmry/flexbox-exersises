@@ -1,0 +1,64 @@
+p{
+  font-family: Calibri;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  color: grey;
+}
+
+.follow-button{
+  color: white;
+  background-color: rgb(79, 161, 242);
+  height: 30px;
+  width: 68px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.follow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.row-profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.image-paragraph{
+  display: flex;
+  flex-direction: row;
+}
+
+.image-display{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-style{
+  width: 54px;
+  height: 54px;
+  border-radius: 27px;
+  object-fit: cover;
+  object-position: left;
+  display: inline-block;
+}
+
+.paragraph-display{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.user-name{
+  font-weight: bold;
+  color: black;
+}
